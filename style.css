@@ -36,6 +36,11 @@ p.dark {
   color: #363737;
 }
 
+p.light {
+  color: #fff;
+  font-size: 10px;
+}
+
 p.foot-r {
   color: #363737;
   text-align: center;
@@ -152,8 +157,6 @@ a{
   text-decoration: none;
 }
 
-
-
 .logo img {
   margin-top: 10px;
   margin-left: 10px;
@@ -187,7 +190,7 @@ a:hover {color: #00db00!important;}
 
 
 
-.padding-mid{padding-top:20%!important;}
+.padding-mid{padding-top:10%!important;}
 
 
 /* embed map */
@@ -304,3 +307,8 @@ p.cider {
 }
 
 @media (min-width: 500px) { .homelogo img { height: 325px;}}
+
+
+.about-us {
+  padding: 4.5em 12%;
+}
