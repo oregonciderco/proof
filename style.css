@@ -46,6 +46,12 @@ p.foot-r {
   text-align: center;
 }
 
+p.foot-r-small {
+  color: #363737;
+  font-size: 11px;
+  text-align: center;
+}
+
 p.foot-l {
   color: #363737;
   text-align: center;
@@ -54,6 +60,11 @@ p.foot-l {
 @media (min-width: 500px){
   p.foot-r {
   text-align: right;
+}
+
+  p.foot-r-small {
+  text-align: right;
+
 }
 
 p.foot-l {
